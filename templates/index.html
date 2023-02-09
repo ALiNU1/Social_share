@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load social_share %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Django App</title>
+</head>
+<body>
+    <h1>Hello World!!!!</h1>
+    <img src="https://avatars.githubusercontent.com/u/101259608?v=4" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis, reiciendis itaque doloremque, quia quaerat expedita quae molestiae blanditiis tempore accusamus consequatur voluptatem tenetur natus necessitatibus a enim nobis recusandae asperiores quidem. Eius dolorum perferendis ad aliquam laudantium dicta amet minima ipsam, beatae incidunt sunt quae minus aperiam! Maiores, eveniet.</p>
+    {% post_to_twitter "Зацените это" object_or_url "Post to Twitter" %}
+    {% post_to_telegram "Зацените это" object_or_url "Post to Instagram" %}
+
+</body>
+</html>
